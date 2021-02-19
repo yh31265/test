@@ -1,0 +1,17 @@
+* {
+    /* デフォルトをリセット */
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0.2em 0.2em 0.2em 0.5em;
+    min-height: 100vh;
+    /*   */
+    display: grid;
+    grid-template:
+      "header"
+      "main" 1fr
+      "footer"
+      ;
+  }
